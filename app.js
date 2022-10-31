@@ -53,7 +53,7 @@ app.post("/", function(req, res) {
         })
     });
 
-    //request.write(jsonData); // write the data
+    request.write(jsonData); // write the data
     request.end();
 });
 
